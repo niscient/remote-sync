@@ -52,7 +52,7 @@ An *exportdir* is a directory created by applying a syncmap to its associated ro
 
 Example:
 
-`UNCHECKED,DIR,Dir,512,Dir/File.jpg`
+`UNCHECKED,512,Dir/File.jpg`
 
 If DIR\_OR\_SIZE is the string "DIR" instead of a size, this indicates that the entry is a directory, not a file. All entries will appear in the same order in which they are encountered when walking the root directory normally.
 
