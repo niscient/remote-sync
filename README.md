@@ -7,7 +7,7 @@ The tools in this package allow you to sync the contents of 2 possibly remotely 
 
 When syncing two directories, A and B, first, you create a *syncmap* of each: a map which contains relevant metadata information for each file in a root directory (as well as direct copies of certain files). Then, you compare the two syncmaps. This updates the syncmaps with information on which files each syncmap needs to be copied from its root directory to the other syncmap's root directory, in order to make the root directories identical.
 
-If the syncmaps have any files in common whose differences can't be automatically reconciled, you must reconcile these conflicts manually. Then you can re-run the syncmap comparison to verify that the results of applying the syncmaps will result in identical root directories. You can run a script to get the files each syncmap needs to export from its associated root directory, thus generating an **exportdir** to be applied to the other root directory.
+If the syncmaps have any files in common whose differences can't be automatically reconciled, you must reconcile these conflicts manually. Then you can re-run the syncmap comparison to verify that the results of applying the syncmaps will result in identical root directories. You can run a script to get the files each syncmap needs to export from its associated root directory, thus generating an *exportdir* to be applied to the other root directory.
 
 ## Usage example
 
